@@ -37,10 +37,10 @@ section.story > div#story button{
    
    background-color: white;
    border: aqua 1px solid;
-   /* padding: 15px; */
+  
    text-transform:uppercase;
    max-width: 8em;
-   /* flex-grow: 0; */
+ 
    padding: .5em;
    border: 1px solid #00e0d0;
    color: #00e0d0;
@@ -60,18 +60,19 @@ section.story > div#story button{
 } 
 
 
-/* #watch1{
-   position: absolute;
-   top: 0%;
-   left: 0%;
-} */
+
 #watch2{
-   /* position: absolute; */
+   
+   align-items: center;
    padding: 20em;
    top: 200px;
    left: 720px;
-   /* border: black solid 2px; */
+ 
+   & img{
+      display: inline;
+   }
 }
+
 /* expertise */
 
 /* team */
