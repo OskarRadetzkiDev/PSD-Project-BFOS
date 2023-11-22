@@ -6,6 +6,48 @@
     background-repeat: no-repeat;
 }
 
+.head-logo {
+    display: flex;
+    align-items: center;
+    & .head-logo-name {
+        margin: 10px;
+        font-size: 30px;
+        color: #00ced1;
+        font-weight: 100
+    }
+}
+
+.head-nav {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-item {
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-item-home {
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    color: #00ced1;
+    font-weight: bolder;
+}
+
+.head-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 #head-button {
         margin: 1em;
         padding: .5em;
