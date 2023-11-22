@@ -1,5 +1,19 @@
 /* head */
 
+.head {
+    background-image: url('/photoshop/photoshop/design-assets/bgk-header.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#head-button {
+        margin: 1em;
+        padding: .5em;
+        border: 1px solid #00e0d0;
+        color: #00e0d0;
+        background-color: transparent;
+}
+
 /* story */
 
 /* watch */
