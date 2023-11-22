@@ -5,9 +5,121 @@
 /* watch */
 
 /* expertise */
+.expertise{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: #413d4b;
+    text-align: center;
+    & .expertise-head{
+        & h2{
+            margin-bottom: .5em;
+        }
+        & p {
+            margin-bottom: .2em;
+        }
+        & .small-line{
+            border: .1px solid #c6c4c9;
+            margin: auto;
+            width: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.expertise-container{
+    background-color: lightgray;
+    margin: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.expertise-grid{
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        max-height: 3em;
+    }
+    & p{
+        margin-bottom: .5em;
+        margin-left: .5em;
+        margin-right: .5em;
+        text-align: center;
+    }
+}
+
 
 /* team */
+.team{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-image: url(/images/bgk-middle.png);
+    background-size: cover;
+    color: white;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .team-head{
+        text-align: center;
+        & h2{
+            margin-bottom: .5em;
+        }
+        & p{
+            margin-bottom: .2em;
+        }
+        & .small-line{
+            border: .1px solid #655c80;
+            margin: auto;
+            width: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}
+.team-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    & .team-element{
+        margin-top: 1em;
+        border: 1px solid white;
+        & .team-position{
+            color: #b3b1bf;
+        }
+        & p{
+            margin: 3px;
+            text-align: center;
+        }
+    }
+}
 
+.team-hiring{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    & p{
+        margin-top: 1em;
+    }
+    & button{
+        margin: 1em;
+        padding: .5em;
+        border: 1px solid #00e0d0;
+        color: #00e0d0;
+        background-color: transparent;
+    }
+}
 /* contact */
 
 /* footer */
