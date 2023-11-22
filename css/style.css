@@ -2,8 +2,76 @@
 
 /* story */
 
+.story{
+   background-color: white;
+   display: grid;
+   grid-template-columns: 40% 60%;
+   justify-content: center;
+}
+.story #img{
+   display: flex;
+   justify-self: end;
+   padding-right: 2em;
+   align-self: center;
+}
+.story #story{
+   display: flex;
+   flex-direction: column;
+   
+   
+   padding: 5em;
+   padding-right: 10em;
+
+}
+
+section.story > div#story h2{
+   
+   text-transform:uppercase;
+   font-size: 25px;
+   color: black;
+}
+
+section.story > div#story button{
+   display: flex;
+   justify-self: left;
+   
+   background-color: white;
+   border: aqua 1px solid;
+   /* padding: 15px; */
+   text-transform:uppercase;
+   max-width: 8em;
+   /* flex-grow: 0; */
+   padding: .5em;
+   border: 1px solid #00e0d0;
+   color: #00e0d0;
+   background-color: transparent;
+}
+
 /* watch */
 
+ .watch{
+   background-image: url("/bgk-middle.png");
+  background-size: cover;
+  min-height: auto;
+    position: relative;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+} 
+
+
+/* #watch1{
+   position: absolute;
+   top: 0%;
+   left: 0%;
+} */
+#watch2{
+   /* position: absolute; */
+   padding: 20em;
+   top: 200px;
+   left: 720px;
+   /* border: black solid 2px; */
+}
 /* expertise */
 
 /* team */
