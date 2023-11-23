@@ -184,10 +184,17 @@ section.story > div#story button{
     }
     & button{
         margin: 1em;
-        padding: .5em;
+        padding: .7em;
         border: 1px solid #00e0d0;
         color: #00e0d0;
         background-color: transparent;
+    }
+    & button:hover {
+        transition: 0.3s;
+        color: white;
+        font-weight: bold;
+        background-color: #00e0d0;
+        cursor: pointer;
     }
 }
 /* contact */
@@ -242,6 +249,13 @@ section.story > div#story button{
                 border: 2px solid #00e0d0;
                 color: #00e0d0;
                 background-color: transparent;
+            }
+            & button:hover {
+                transition: 0.3s;
+                color: white;
+                font-weight: bold;
+                background-color: #00e0d0;
+                cursor: pointer;
             }
         }
     }
