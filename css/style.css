@@ -89,6 +89,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1em;
     & .team-element{
         margin-top: 1em;
@@ -128,9 +129,11 @@
     gap: 5em;
     margin-right: 20%;
     margin-left: 20%;
+    padding-top: 3em;
     & .contact-right{
         display: flex;
         flex-direction: column;
+        min-width: 50%;
         & img {
         max-width: 10em;
         margin-bottom: 2em;
@@ -143,25 +146,34 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                margin-right: 1em;
+                margin-right: 2em;
             }
             & .contact-logos-r{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                margin-left: 1em;
+                margin-left: 2em;
             }
         }
     }
     & .contact-left{
         display: flex;
         flex-direction: column;
+        min-width: 50%;
         & .form{
             margin-top: 2em;
+            max-width: 25em;
             gap: 1em;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            & button {
+                padding: .5em;
+                max-width: 8em;
+                border: 2px solid #00e0d0;
+                color: #00e0d0;
+                background-color: transparent;
+            }
         }
     }
 }
