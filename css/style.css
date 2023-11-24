@@ -115,10 +115,17 @@ hr {
 
 #button {
         margin: 1em;
-        padding: .5em;
+        padding: .7em;
         border: 1px solid #00e0d0;
         color: #00e0d0;
         background-color: transparent;
+    }
+    & #button:hover {
+        transition: 0.3s;
+        color: white;
+        font-weight: bold;
+        background-color: #00e0d0;
+        cursor: pointer;
 }
 
 /* story */
@@ -138,34 +145,31 @@ hr {
 .story #story{
    display: flex;
    flex-direction: column;
-   
-   
    padding: 5em;
    padding-right: 10em;
 
 }
 
 section.story > div#story h2{
-   
    text-transform:uppercase;
    font-size: 25px;
    color: black;
 }
 
 section.story > div#story button{
-   display: flex;
-   justify-self: left;
-   
-   background-color: white;
-   border: aqua 1px solid;
-  
-   text-transform:uppercase;
-   max-width: 8em;
- 
-   padding: .5em;
-   border: 1px solid #00e0d0;
-   color: #00e0d0;
-   background-color: transparent;
+    max-width: 8em;
+    margin: 1em;
+    padding: .7em;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    background-color: transparent;
+}
+section.story > div#story button:hover{
+    transition: 0.3s;
+    color: white;
+    font-weight: bold;
+    background-color: #00e0d0;
+    cursor: pointer;
 }
 
 /* watch */
