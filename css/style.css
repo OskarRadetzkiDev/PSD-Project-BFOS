@@ -306,7 +306,8 @@ section.story > div#story button:hover{
     justify-content: center;
     align-items: center;
     & p{
-        margin-top: .5em;
+        margin-top: 1.5em;
+        margin-bottom: .5em;
     }
     & button{
         margin: 1em;
@@ -328,7 +329,7 @@ section.story > div#story button:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5em;
+    gap: 2.5em;
     margin-right: 20%;
     margin-left: 20%;
     padding-top: 6em;
@@ -393,10 +394,10 @@ section.story > div#story button:hover{
 footer {
   display: flex;
   background-image: url("/photoshop/photoshop/design-assets/bgk-footer.png");
+  background-size: cover;
   color: white;
   font-family: "Times New Roman", Times, serif;
   justify-content: space-between;
-  font-size: 2px;
   flex-direction: column;
   padding-right: 20%;
   padding-left: 20%;
@@ -505,8 +506,6 @@ footer {
 .Firmenlogo_Footer {
   color: #00e0d0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 1em;
-  font-size: 2px;
   display: flex;
   flex-direction: row;
 }
