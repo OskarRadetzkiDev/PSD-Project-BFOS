@@ -2,7 +2,6 @@
 body{
     & h1{
         font-family: Arial, sans-serif;
-        text-transform: uppercase;
     }
     & h2{
         font-family: Arial, sans-serif;
@@ -34,10 +33,10 @@ body{
     display: flex;
     align-items: center;
     & .head-logo-name {
+        font-family: 'Nixie One', serif;
         margin: 10px;
-        font-size: 30px;
+        font-size: 25px;
         color: #00ced1;
-        font-weight: 100
     }
 }
 
