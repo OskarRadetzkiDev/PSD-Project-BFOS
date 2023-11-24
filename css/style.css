@@ -1,3 +1,25 @@
+/* General Styles */
+body{
+    & h1{
+        font-family: Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    & h2{
+        font-family: Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    & h3{
+        font-family: Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    & p{
+        font-family: Georgia, serif;
+    }
+}
+
+
 /* head */
 
 .head {
@@ -176,8 +198,8 @@ section.story > div#story button{
 .expertise{
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 4em;
+    padding-bottom: 7em;
     color: #413d4b;
     text-align: center;
     & .expertise-head{
@@ -191,7 +213,7 @@ section.story > div#story button{
             border: .1px solid #c6c4c9;
             margin: auto;
             width: 3em;
-            margin-bottom: 1em;
+            margin-bottom: 4em;
         }
     }
 }
@@ -228,8 +250,8 @@ section.story > div#story button{
 
 /* team */
 .team{
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 4em;
+    padding-bottom: 7em;
     background-image: url(/images/bgk-middle.png);
     background-size: cover;
     color: white;    
@@ -249,7 +271,7 @@ section.story > div#story button{
             border: .1px solid #655c80;
             margin: auto;
             width: 3em;
-            margin-bottom: 1em;
+            margin-bottom: 4em;
         }
     }
 }
@@ -277,9 +299,8 @@ section.story > div#story button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
     & p{
-        margin-top: 1em;
+        margin-top: .5em;
     }
     & button{
         margin: 1em;
@@ -304,7 +325,8 @@ section.story > div#story button{
     gap: 5em;
     margin-right: 20%;
     margin-left: 20%;
-    padding-top: 3em;
+    padding-top: 6em;
+    padding-bottom: 5em;
     & .contact-right{
         display: flex;
         flex-direction: column;
